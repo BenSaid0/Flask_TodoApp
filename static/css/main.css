@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    font-family: cursive;
+}
+ 
+h1 {
+	text-align: center;
+	font-family: cursive;
+	color: #262626;
+}
+
+
+.content {
+    margin: 0 auto;
+    width: 400px;
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+	font-family: Hack, monospace;
+    height: 30px;
+}
+
+td {
+
+    text-align: center;
+    padding: 5px;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    width: 70%;
+}
+
+
+input[type=text] {
+	padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=submit] {
+	font-family: Hack, monospace;
+    background: #d3d3d3;
+    color: #2c2c2c;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 0.8rem;
+    border: 0;
+    border-radius: 10px;
+    width: auto;
+}
+
+input[type=submit]:hover {
+	transition: all 0.5s;
+	background: #555;
+	color: white;
+}
